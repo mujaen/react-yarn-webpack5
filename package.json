@@ -1,0 +1,21 @@
+{
+  "name": "react-yarn-webpack5",
+  "version": "1.0.0",
+  "description": "Yarn berry + React v18 환경구성을 정리한 문서입니다",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mujaen/react-yarn-webpack5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mujaen/react-yarn-webpack5/issues"
+  },
+  "homepage": "https://github.com/mujaen/react-yarn-webpack5#readme",
+  "packageManager": "yarn@3.2.0"
+}
