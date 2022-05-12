@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"],\
             ["webpack", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:5.72.1"],\
             ["webpack-cli", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:4.9.2"]\
           ],\
@@ -1038,6 +1039,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["react-yarn-webpack5", "workspace:."],\
+            ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"],\
             ["webpack", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:5.72.1"],\
             ["webpack-cli", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:4.9.2"]\
           ],\
@@ -1277,6 +1279,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["tr46", "npm:1.0.1"],\
             ["punycode", "npm:2.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["typescript", [\
+        ["patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-044c37f428-1cb434fbc6.zip/node_modules/typescript/",\
+          "packageDependencies": [\
+            ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"]\
           ],\
           "linkType": "HARD"\
         }]\
