@@ -9,7 +9,7 @@ const smp = new SpeedMeasurePlugin();
 module.exports = (options) =>
     smp.wrap({
     mode: options.mode,
-    entry: path.resolve(process.cwd(), 'src/index.ts'),
+    entry: options.entry,
     output: {
       filename: "[name].[chunkhash].js",
       path: path.resolve(process.cwd(), 'build'),
