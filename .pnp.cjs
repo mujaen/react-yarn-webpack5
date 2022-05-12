@@ -37,6 +37,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-env", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:7.17.10"],\
             ["@babel/preset-react", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:7.16.7"],\
             ["@babel/preset-typescript", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:7.16.7"],\
+            ["@types/react", "npm:18.0.9"],\
+            ["@types/react-dom", "npm:18.0.3"],\
             ["@types/styled-components", "npm:5.1.25"],\
             ["babel-plugin-styled-components", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.0.7"],\
             ["esbuild-loader", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.18.0"],\
@@ -2545,6 +2547,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prop-types", "npm:15.7.5"],\
             ["@types/scheduler", "npm:0.16.2"],\
             ["csstype", "npm:3.0.11"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/react-dom", [\
+        ["npm:18.0.3", {\
+          "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.0.3-c26e1c1245-5c87fb610e.zip/node_modules/@types/react-dom/",\
+          "packageDependencies": [\
+            ["@types/react-dom", "npm:18.0.3"],\
+            ["@types/react", "npm:18.0.9"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5103,6 +5115,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-env", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:7.17.10"],\
             ["@babel/preset-react", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:7.16.7"],\
             ["@babel/preset-typescript", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:7.16.7"],\
+            ["@types/react", "npm:18.0.9"],\
+            ["@types/react-dom", "npm:18.0.3"],\
             ["@types/styled-components", "npm:5.1.25"],\
             ["babel-plugin-styled-components", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.0.7"],\
             ["esbuild-loader", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.18.0"],\
@@ -5547,8 +5561,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/is-prop-valid", "npm:1.1.2"],\
             ["@emotion/stylis", "npm:0.8.5"],\
             ["@emotion/unitless", "npm:0.7.5"],\
-            ["@types/react", null],\
-            ["@types/react-dom", null],\
+            ["@types/react", "npm:18.0.9"],\
+            ["@types/react-dom", "npm:18.0.3"],\
             ["@types/react-is", null],\
             ["babel-plugin-styled-components", "virtual:aeb8f7b8b1decbadfc62fb8ff2bac9b47efd42b79baa671d717aabd77d8968b1d8295c7986dc33959295b2748e1da66bfff5b8d2a193ce6b0dde79caa1958720#npm:2.0.7"],\
             ["css-to-react-native", "npm:3.0.0"],\

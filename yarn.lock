@@ -1487,7 +1487,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react-dom@npm:^18.0.3":
+  version: 18.0.3
+  resolution: "@types/react-dom@npm:18.0.3"
+  dependencies:
+    "@types/react": "*"
+  checksum: 5c87fb610e212f0942ebbf522dfca4c9dc2ac8afa4c601454415e7c42f993518868207faff7658d11974142937ba7af2f80e274c3a3f5e0e697bdd5547dbe1b0
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*, @types/react@npm:^18.0.9":
   version: 18.0.9
   resolution: "@types/react@npm:18.0.9"
   dependencies:
@@ -3593,6 +3602,8 @@ __metadata:
     "@babel/preset-env": ^7.17.10
     "@babel/preset-react": ^7.16.7
     "@babel/preset-typescript": ^7.16.7
+    "@types/react": ^18.0.9
+    "@types/react-dom": ^18.0.3
     "@types/styled-components": ^5.1.25
     babel-plugin-styled-components: ^2.0.7
     esbuild-loader: ^2.18.0
