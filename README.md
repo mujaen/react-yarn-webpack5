@@ -14,6 +14,8 @@ Yarn berry + React v18 환경구성을 정리한 문서입니다
 
 ### 상태관리
 
+Recoil or Redux
+
 상태관리 라이브러리 후보
 
 1. React Query
