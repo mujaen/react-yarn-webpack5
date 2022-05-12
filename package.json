@@ -24,6 +24,7 @@
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
     "esbuild-loader": "^2.18.0",
+    "prettier": "^2.6.2",
     "speed-measure-webpack-plugin": "^1.5.0",
     "typescript": "^4.6.4",
     "webpack": "^5.72.1",

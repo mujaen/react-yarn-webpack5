@@ -2720,6 +2720,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:^2.6.2":
+  version: 2.6.2
+  resolution: "prettier@npm:2.6.2"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 48d08dde8e9fb1f5bccdd205baa7f192e9fc8bc98f86e1b97d919de804e28c806b0e6cc685e4a88211aa7987fa9668f30baae19580d87ced3ed0f2ec6572106f
+  languageName: node
+  linkType: hard
+
 "punycode@npm:^2.1.0":
   version: 2.1.1
   resolution: "punycode@npm:2.1.1"
@@ -2745,6 +2754,7 @@ __metadata:
     "@babel/preset-react": ^7.16.7
     "@babel/preset-typescript": ^7.16.7
     esbuild-loader: ^2.18.0
+    prettier: ^2.6.2
     speed-measure-webpack-plugin: ^1.5.0
     typescript: ^4.6.4
     webpack: ^5.72.1

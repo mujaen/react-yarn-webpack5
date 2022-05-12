@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-react", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:7.16.7"],\
             ["@babel/preset-typescript", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:7.16.7"],\
             ["esbuild-loader", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.18.0"],\
+            ["prettier", "npm:2.6.2"],\
             ["speed-measure-webpack-plugin", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:1.5.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"],\
             ["webpack", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:5.72.1"],\
@@ -4025,6 +4026,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prettier", [\
+        ["npm:2.6.2", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.6.2-05918420da-48d08dde8e.zip/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:2.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["punycode", [\
         ["npm:2.1.1", {\
           "packageLocation": "./.yarn/cache/punycode-npm-2.1.1-26eb3e15cf-823bf443c6.zip/node_modules/punycode/",\
@@ -4054,6 +4064,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-react", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:7.16.7"],\
             ["@babel/preset-typescript", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:7.16.7"],\
             ["esbuild-loader", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.18.0"],\
+            ["prettier", "npm:2.6.2"],\
             ["speed-measure-webpack-plugin", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:1.5.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"],\
             ["webpack", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:5.72.1"],\
