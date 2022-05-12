@@ -2,6 +2,7 @@
  *  BASE WEBPACK CONFIGURATION
  */
 const { ESBuildMinifyPlugin } = require('esbuild-loader');
+const path = require('path');
 
 module.exports = (options) =>
   ({
