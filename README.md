@@ -43,15 +43,39 @@ nvm use 16.15.0
 2. Package Manager는 yarn(berry)를 기본으로 사용합니다
 
 ```
+npm install yarn -g
 yarn set version berry
 ```
 
 ## Getting Started
 
 ```
+git clone https://github.com/mujaen/react-yarn-webpack5.git
 yarn run start
 ```
 
+## Building Process
+1. Node Setup
+2. Yarn Setup
+    - 버전 설정 
+    - zero install 설정
+3. Typescript Setup
+   - @types 설치
+   - tsconfig.json 설정
+4. Webpack.config.json 
+   - plugins 설정
+   - dev, beta, prod 분기처리
+5. esbuild-loader Setup
+   - 모듈 설정(바벨 대체)
+   - 코드압축 설정
+6. Babel Setup
+   - .babelrc 설정
+7. React Setup
+   - 의존성 패키지 설치
+   - 페이지 생성
+8. Express Setup
+   - server 설정
+   - middleware 추가
 ## Referance
 
 - [compression 미들웨어 추가](https://kimcoder.tistory.com/329)
