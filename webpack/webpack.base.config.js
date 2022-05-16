@@ -3,11 +3,9 @@
  */
 const { ESBuildMinifyPlugin } = require('esbuild-loader');
 const path = require('path');
-const SpeedMeasurePlugin = require('speed-measure-webpack-plugin');
-const smp = new SpeedMeasurePlugin();
 
 module.exports = (options) =>
-    smp.wrap({
+    ({
     mode: options.mode,
     entry: options.entry,
     output: {

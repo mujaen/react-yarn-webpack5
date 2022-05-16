@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.3"],\
             ["@types/styled-components", "npm:5.1.25"],\
             ["babel-plugin-styled-components", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.0.7"],\
-            ["esbuild-loader", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.18.0"],\
+            ["esbuild-loader", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.19.0"],\
             ["express", "npm:4.18.1"],\
             ["html-webpack-plugin", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:5.5.0"],\
             ["prettier", "npm:2.6.2"],\
@@ -3880,17 +3880,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["esbuild-loader", [\
-        ["npm:2.18.0", {\
-          "packageLocation": "./.yarn/cache/esbuild-loader-npm-2.18.0-202480fa27-744b9f8c8f.zip/node_modules/esbuild-loader/",\
+        ["npm:2.19.0", {\
+          "packageLocation": "./.yarn/cache/esbuild-loader-npm-2.19.0-a7bf4e133f-7dc8deca3a.zip/node_modules/esbuild-loader/",\
           "packageDependencies": [\
-            ["esbuild-loader", "npm:2.18.0"]\
+            ["esbuild-loader", "npm:2.19.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.18.0", {\
-          "packageLocation": "./.yarn/__virtual__/esbuild-loader-virtual-2e5b38392b/0/cache/esbuild-loader-npm-2.18.0-202480fa27-744b9f8c8f.zip/node_modules/esbuild-loader/",\
+        ["virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.19.0", {\
+          "packageLocation": "./.yarn/__virtual__/esbuild-loader-virtual-58f7fa1d24/0/cache/esbuild-loader-npm-2.19.0-a7bf4e133f-7dc8deca3a.zip/node_modules/esbuild-loader/",\
           "packageDependencies": [\
-            ["esbuild-loader", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.18.0"],\
+            ["esbuild-loader", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.19.0"],\
             ["@types/webpack", null],\
             ["esbuild", "npm:0.14.39"],\
             ["joycon", "npm:3.1.1"],\
@@ -5173,7 +5173,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.3"],\
             ["@types/styled-components", "npm:5.1.25"],\
             ["babel-plugin-styled-components", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.0.7"],\
-            ["esbuild-loader", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.18.0"],\
+            ["esbuild-loader", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:2.19.0"],\
             ["express", "npm:4.18.1"],\
             ["html-webpack-plugin", "virtual:a5ab31b4b6df2e3acc9d59f2621d2b049104caf2d81fa7f4b4d6f6e03fd12a6b98086bdec0a5f31dff5cee4914ed85ec82d37fdb8bd418c2ed20286850fe5e41#npm:5.5.0"],\
             ["prettier", "npm:2.6.2"],\
